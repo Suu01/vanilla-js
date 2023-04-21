@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+  }
+
+.smallWidth {
+  background-color: skyblue;
+  color: white;
+}
+
+.middleWidth {
+  background-color: blueviolet;
+  color: white;
+}
+
+.wideWidth {
+  background-color: orange;
+  color: white;
+}
