@@ -8,17 +8,19 @@
 </head>
 <body>
     <h1>Random Number Game</h1>
-    <div>
+    <div id="select">
         <h3 class="js-title">
-        Generate a number between 0 and <input id="maxNumber" type="number" />
+        Generate a number between 0 and <input id="maxNumber" type="number" min="0" />
         </h3>
     </div>
     <form id="js-guess">
         <label>Guess the number:</label>
-        <input type="number" max="200" min="5" />
+        <input type="number" min="0" />
         <button>Play!</button>
     </form>
     <div id="js-result">
+        <span></span>
+        <br>
         <span></span>
     </div>
     <script src="app2.js"></script>
