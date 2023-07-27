@@ -1,4 +1,4 @@
-const daysOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 
 // Get Item from Array
 console.log(daysOfWeek[4]);
@@ -16,9 +16,11 @@ console.log(daysOfWeek);
 // const sun = "sun";
 // const daysOfWeek = mon + tue + wed + thu + fri + sat + sun;
 // const daysOfWeek = [mon, tue, wed, thu, fri, sat, sun];
+// console.log(daysOfWeek);
 
-// const nonsense = [1, 2, "hello", false, null, true, undefined, "ssu"];
-// console.log(nonsense);
+const nonsense = [1, 2, "hello", false, null, true, undefined, "ssu"];
+console.log(nonsense);
 
 const toBuy = ["potato", "tomato", "pizza"];
 toBuy.push("kimbab");
+console.log(toBuy);
