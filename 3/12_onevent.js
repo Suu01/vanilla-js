@@ -1,11 +1,11 @@
 const title = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick() {
-    title.style.color = "blue";
+  title.style.color = "red";
 }
 
 function handleMouseLeave() {
-    title.innerText = "Mouse is gone!";
+  title.innerText = "Mouse is gone!";
 }
 
 title.onclick = handleTitleClick;
@@ -16,7 +16,7 @@ title.onclick = handleTitleClick;
 // };
 
 title.addEventListener("mouseenter", () => {
-    title.innerText = "Mouse is here!"
+  title.innerText = "Mouse is here!";
 });
 // title.addEventListener("mouseenter", function() {
 //     title.innerText = "Mouse is here!"
