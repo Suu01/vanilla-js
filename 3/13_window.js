@@ -1,31 +1,31 @@
 const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick() {
-    h1.style.color = "blue";
+  h1.style.color = "red";
 }
 
 function handleMouseEnter() {
-    h1.innerText = "Mouse is here!";
+  h1.innerText = "Mouse is here!";
 }
 
 function handleMouseLeave() {
-    h1.innerText = "Mouse is gone!";
+  h1.innerText = "Mouse is gone!";
 }
 
 function handleWindowResize() {
-    document.body.style.backgroundColor = "tomato";
+  document.body.style.backgroundColor = "tomato";
 }
 
 function handleWindowCopy() {
-    alert("copier!");
+  alert("copier!");
 }
 
 function handleWindowOffline() {
-    alert("SOS no WIFI");
+  alert("SOS no WIFI");
 }
 
 function handleWindowOnline() {
-    alert("ALL GOOOD");
+  alert("ALL GOOOD");
 }
 
 h1.addEventListener("click", handleTitleClick);
